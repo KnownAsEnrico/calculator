@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    zoom: 1.35;
+}
+
+.bigfont {
+    font-size: 20;
+}
+
+.buttonCalc {
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buttonCalc:hover {
+    opacity: 0.5;
+}
+
+.buttonCalc:active {
+    background-color: white;
+}
+
+.buttons {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px 0px;
+}
+
+.buttonsbox {
+    background-color: grey;
+    position: relative;
+    height: 330;
+    width: 260;
+    top: 10px;
+    left: 20px;
+    border-radius: 5px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.fontStyle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.calculatorBody {
+    background-color: lightgrey;
+    position: relative;
+    left: 5%;
+    width: 300;
+    height: 460;
+    border-radius: 12px;
+    border: 2px solid darkslategray;
+}
+
+.historyBox {
+    position: relative;
+}
+
+
+.inputfield {
+    background-color: darkslategrey;
+    position: relative;
+    left: 20px;
+    width: 260;
+    height: 30;
+    border-radius: 15px;
+    text-align: right;
+    font-size: 20;
+    color: white;
+}
+
+
+.scrollable {
+    overflow: scroll;
+    height: 400;
+    width: 300;
+    border: 2px solid black;
+}
+
+tr {
+    display: flex;
+}
+
+
+td {
+    border: 1px solid black;
+    width: 50%;
+    overflow: hidden;
+}
